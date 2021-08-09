@@ -8,7 +8,7 @@ module.exports = {
 
       sm: '640px',
       // => @media (min-width: 640px) { ... }
-
+      smd: '860px',
       md: '768px',
       // => @media (min-width: 768px) { ... }
 
@@ -26,7 +26,8 @@ module.exports = {
     extend: {
       fontFamily: {
         Roboto: ['Roboto', 'Inter', 'Arial', 'sans-serif'],
-        Inter: ['Inter', 'Roboto', 'Arial', 'sans-serif']
+        Inter: ['Inter', 'Roboto', 'Arial', 'sans-serif'],
+        'Playfair-Display': ['Playfair Display', 'Inter', 'Roboto']
       }
     }
   },

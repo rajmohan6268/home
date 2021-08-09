@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-orange{
+  background: #FF8227;
+}
+
+.border-orange{
+  border-color: #FF8227;
+}
+
+.dot{
+  width: 193.11px;
+  height: 193.11px;
+  left: 1250px;
+  top: 1080.24px;
+
+  background: rgba(255, 130, 39, 0.25);
+  filter: blur(126px);
+  transform: matrix(0.87, 0.5, 0.5, -0.87, 0, 0);
+}
+
+.bg-green-trans{
+  background: rgba(31, 228, 158, 0.15);
+}
+
+.bg-orange-trans{
+  background: #FFEFE3;
+}
+.text-orange{
+  color: #FF8227;
+}
+.text-gray{
+  color: #A0A0A4;
+}
+.text-black-gray{
+  color: #333333;
+}
+
+/* graoh */
+
+
+
+
